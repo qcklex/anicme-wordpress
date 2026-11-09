@@ -1,0 +1,62 @@
+.elementor-27 .elementor-element.elementor-element-3ab0ed09{--display:flex;--overlay-opacity:1;}.elementor-27 .elementor-element.elementor-element-3ab0ed09::before, .elementor-27 .elementor-element.elementor-element-3ab0ed09 > .elementor-background-video-container::before, .elementor-27 .elementor-element.elementor-element-3ab0ed09 > .e-con-inner > .elementor-background-video-container::before, .elementor-27 .elementor-element.elementor-element-3ab0ed09 > .elementor-background-slideshow::before, .elementor-27 .elementor-element.elementor-element-3ab0ed09 > .e-con-inner > .elementor-background-slideshow::before, .elementor-27 .elementor-element.elementor-element-3ab0ed09 > .elementor-motion-effects-container > .elementor-motion-effects-layer::before{background-color:var( --e-global-color-secondary );--background-overlay:'';}.elementor-27 .elementor-element.elementor-element-22002159{--wcf-duration:1000ms;--wcf-delay:0ms;--wcf-ease:ease;}/* Start custom CSS for container, class: .elementor-element-3ab0ed09 */h1, h2, div, p, span {
+    color: #ffffff;
+}
+
+/* WooCommerce account links - readable on purple */
+.woocommerce-MyAccount-navigation ul li a,
+.woocommerce-MyAccount-content a,
+.woocommerce-LostPassword a,
+.woocommerce-breadcrumb,
+.woocommerce-breadcrumb a {
+  color: #ffffff;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.woocommerce-MyAccount-navigation ul li a:hover,
+.woocommerce-MyAccount-content a:hover,
+.woocommerce-LostPassword a:hover,
+.woocommerce-breadcrumb a:hover {
+  color: #ffd84d;
+  text-decoration: none;
+}
+
+.woocommerce-MyAccount-navigation li.is-active a {
+  color: #ffd84d;
+  font-weight: 600;
+}
+
+/* Remove bullet points from account navigation */
+.woocommerce-MyAccount-navigation ul {
+  list-style: none;
+  padding-left: 0;
+  margin-left: 0;
+}
+
+.woocommerce-MyAccount-navigation ul li {
+  list-style: none;
+}
+
+/* Mobile layout fix for My Account page */
+@media (max-width: 768px) {
+  .woocommerce-MyAccount-navigation,
+  .woocommerce-MyAccount-content {
+    width: 100% !important;
+    float: none !important;
+    margin-bottom: 2rem;
+  }
+
+  .woocommerce-MyAccount-navigation ul li {
+    padding: 0.5rem 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  }
+
+  .woocommerce-MyAccount-navigation ul li:last-child {
+    border-bottom: none;
+  }
+
+  .woocommerce-MyAccount-content {
+    padding-top: 1.5rem;
+    border-top: 2px solid rgba(255, 255, 255, 0.3);
+  }
+}/* End custom CSS */
